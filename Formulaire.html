@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire d'emploi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Formulaire de candidature</h2>
+    <form action="#" method="post">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required>
+
+      <label for="sexe">Sexe :</label>
+      <select id="sexe" name="sexe" required>
+        <option value="">--Sélectionnez--</option>
+        <option value="homme">Homme</option>
+        <option value="femme">Femme</option>
+        <option value="autre">Autre</option>
+      </select>
+
+      <label for="telephone">Téléphone :</label>
+      <input type="tel" id="telephone" name="telephone" required>
+
+      <label for="adresse">Adresse :</label>
+      <input type="text" id="adresse" name="adresse" required>
+
+      <label for="occupation">Occupation actuelle :</label>
+      <input type="text" id="occupation" name="occupation" required>
+
+      <label for="message">Message / Motivation :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Soumettre la candidature</button>
+    </form>
+  </div>
+</body>
+</html>
